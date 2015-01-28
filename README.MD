@@ -55,12 +55,15 @@ It does not include a couchdriver (maybe future TODO) and it must be passed. Cou
 	
 ##Changelog
 
+###0.15.128-b
+Some info on the README was missing
+
 ###0.15.128-a
 Initial release, couchforce added to ViewPaginator routine
 
 
-###Credits
-No specific order
+##Credits
+At no specific order
 
 - [Ignacio](https://github.com/castci)
 - [Salvador Aceves](https://github.com/xalakox)
