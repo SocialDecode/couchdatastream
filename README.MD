@@ -31,15 +31,23 @@ It does not include a couchdriver (maybe future TODO) and it must be passed. Cou
 	
 	paginator.on('rows',function(rows){
 		//Do something with your results
+
+		paginator.next();
 	});
 	
 	paginator.on('error',function(err){
 		//Handle here the error
+
+		paginator.end();
 	});
 	
 	paginator.on('end',function(){
 		//we are done here
 	});
+	
+	//start the pagination
+	paginator.next();
+
 	
 ##TODO
 - Add nano inside the package and require less things
@@ -49,3 +57,11 @@ It does not include a couchdriver (maybe future TODO) and it must be passed. Cou
 
 ###0.15.128-a
 Initial release, couchforce added to ViewPaginator routine
+
+
+###Credits
+No specific order
+
+- [Ignacio](https://github.com/castci)
+- [Salvador Aceves](https://github.com/xalakox)
+- [Zero Dragon](https://github.com/zerodragon)
