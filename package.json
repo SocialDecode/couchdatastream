@@ -1,0 +1,27 @@
+{
+  "name": "couchdatastream",
+  "version": "0.15.128-a",
+  "description": "Couch Data Stream is a smart pagination for couchdb that emits several events for the requested data. Also includes self retry for those big couch databases that needs to re-compile their views.",
+  "main": "lib/couchdatastream.js",
+  "scripts": {
+    "test": "echo \"TODO\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SocialDecode/couchdatastream"
+  },
+  "keywords": [
+    "couchdb",
+    "datastream",
+    "couchpagination"
+  ],
+  "author": "SocialDecode",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SocialDecode/couchdatastream/issues"
+  },
+  "homepage": "https://github.com/SocialDecode/couchdatastream",
+  "dependencies": {
+    "async": "0.9.0"
+  }
+}
