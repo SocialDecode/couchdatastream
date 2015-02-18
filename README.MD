@@ -8,6 +8,9 @@ It does not include a couchdriver (maybe future TODO) and it must be passed. Cou
 ##Usage
 
 	couchdatastream = require('couchdatastream');
+
+	couchdatastream.displayLogs = false //optional
+
 	nano = require('nano');
 	
 	var couchdb = nano('Your_Couch_Uri');
@@ -54,6 +57,9 @@ It does not include a couchdriver (maybe future TODO) and it must be passed. Cou
 - Rewrite the code as coffeescript (maybe litcoffee)
 	
 ##Changelog
+
+###0.15.0218-a
+Added an option to display the internal logs while working. Default true.
 
 ###0.15.128-b
 Some info on the README was missing
