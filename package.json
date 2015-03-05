@@ -1,6 +1,6 @@
 {
   "name": "couchdatastream",
-  "version": "0.15.0218-a",
+  "version": "0.15.0305-a",
   "description": "Couch Data Stream is a smart pagination for couchdb that emits several events for the requested data. Also includes self retry for those big couch databases that needs to re-compile their views.",
   "main": "lib/couchdatastream.js",
   "scripts": {

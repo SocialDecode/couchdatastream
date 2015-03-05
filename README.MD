@@ -58,6 +58,9 @@ It does not include a couchdriver (maybe future TODO) and it must be passed. Cou
 	
 ##Changelog
 
+###0.15.0305-a
+Fixed a problem with the statuscode on couchforce
+
 ###0.15.0218-a
 Added an option to display the internal logs while working. Default true.
 
